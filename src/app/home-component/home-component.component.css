@@ -1,0 +1,112 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://www.auraortho.com/aura-ortho/wp-content/uploads/2015/06/surrey-indian-restaurant-7.jpg");
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url(" http://images.dailyhive.com/20161019141754/Screen-Shot-2016-10-19-at-2.16.12-PM.jpg");
+  min-height: 400px;
+  
+
+}
+.bgimg-3 {
+  background-image: url("http://st1.bgr.in/wp-content/uploads/2015/09/food-home-delivery-stock-image.jpg");
+  min-height: 600px;
+}
+
+.caption {
+  /*position: absolute;*/
+     padding-top: 122px;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+h1{
+font-weight: bold;
+color:white;
+}
+h3{
+font-weight: bold;
+color:white;
+}
+
+.container{
+  font-weight: bold;
+color:white;  
+}
+h4{
+    font-size:x-large;
+    color: green; 
+}
+
+
+.img1{
+width: 200px;
+height: 400px;
+margin-top: -200px;
+}
+
+.item1 {
+    float: left;
+}
+
+.item2 {
+    float:right;
+}
+
+#step1:hover{
+ background:lightcoral;
+ color:white;
+
+}
+#step2:hover{
+  background:lightsalmon;
+  color:white;
+  
+}
+#step3:hover{
+  background:lightgreen;
+  color:white;
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+ /* @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}  */
+

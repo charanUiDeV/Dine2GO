@@ -1,0 +1,94 @@
+.demo-card-square.mdl-card {
+    float: left;
+    margin: 1rem;
+    position: relative;
+
+  }
+  
+  .demo-card-square > .mdl-card__title {
+    /*color: #fff;*/
+    
+  }
+  
+  .demo-card-square > .mdl-card__accent {
+    /*background: #ff9800;*/
+  }
+  
+  body {
+    /*padding: 20px;*/
+    background: #c0cfe8;
+    position: relative;
+  }
+  .col-xs-1{
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);  
+  }
+  
+  img{
+      width:400px;
+      height:300px;
+      
+  }
+  @import url(http://weloveiconfonts.com/api/?family=entypo);
+
+.rating a:before {
+  font-family: "entypo";
+  content: "★";
+}
+
+.rating:hover li a,
+.rating:focus li a,
+.rating.result li a {
+  color: #ff0;
+}
+
+.rating li {
+  display: inline-block;
+}
+
+.rating li:hover ~ li a,
+.rating .active ~ li a {
+  color:black;
+}
+
+.rating li a {
+  display: block;
+  padding: 3px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.rating li a:focus {
+  outline: none;
+  color: #ff0;
+}
+
+
+/* Styling */
+
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  /*//position: absolute;*/
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.rating {
+  margin-bottom:0px;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+

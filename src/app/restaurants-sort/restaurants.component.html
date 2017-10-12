@@ -1,0 +1,46 @@
+
+<div class="form-group" style="margin-top:70px">
+  <div class="col-md-6" >
+    <input type="text" [(ngModel)]="searchText" 
+           class="form-control" placeholder="Search By Location" style="height:40px" />
+  </div>
+</div>
+<div class="mdl-card mdl-shadow--2dp demo-card-square">
+ <div style="margin-top:20px" style="border-style: solid; border-width:1px; border-color:azure" class= "col-xs-2" *ngFor="let item of records | location: searchText">
+    <div class="mdl-card__title mdl-card--expand" >
+        <img class="img-fluid img-thumbnail" src={{item.img}}> 
+    </div>
+<div class="wrapper" style="margin-left:100px; margin-top:20px;">
+ 
+  <ul class="rating">
+    <li>
+      <a href="#" title="very poor"><span class="visuallyhidden">F*** off</span></a>
+    </li>
+    <li>
+      <a href="#" title="Poor"><span class="visuallyhidden">Poor</span></a>
+    </li>
+      <li>
+      <a href="#" title="Good"><span class="visuallyhidden">Good</span></a>
+     </li>
+      <li>
+      <a href="#" title="Very Good"><span class="visuallyhidden">Very Good</span></a>
+    </li>
+     <li>
+      <a href="#" title="Awesome"><span class="visuallyhidden">Awesome</span></a>
+    </li>
+  </ul>
+  
+</div>
+    <div style="margin-bottom:70px">
+    <div class="mdl-card__supporting-text">
+     <h4> {{item.Name}} </h4>
+    </div>
+    <div class="mdl-card__actions mdl-card--border" >
+      <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+         Menu
+        </a>
+    </div>
+    </div>
+  </div>
+</div>
+

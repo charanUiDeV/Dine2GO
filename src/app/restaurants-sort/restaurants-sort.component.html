@@ -1,0 +1,28 @@
+<div class="form-group" style="margin-top:70px">
+  <div class="col-md-6" >
+    <input type="text" [(ngModel)]="searchText" 
+           class="form-control" placeholder="Search By Location" />
+  </div>
+</div>
+<div class="row">
+<div class="col-md-12">  
+ 
+      <!--<img src={{item.img}}/>-->
+    </div>
+    <div class="card " style="margin-top:20px" class= "col-xs-3" *ngFor="let item of records | location: searchText">
+    <div class="image fade">
+      <img class="img-fluid"src={{item.img}} alt="Card image cap">
+        <h4 class="card-title"> {{item.Name}}</h4>
+        
+   
+        
+   
+        
+    </div>
+   
+        
+    </div>
+
+</div>
+
+	   

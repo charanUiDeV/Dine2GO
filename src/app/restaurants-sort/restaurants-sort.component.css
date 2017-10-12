@@ -1,0 +1,29 @@
+body{
+    background-image:"http://srilankafood.net/wp-content/uploads/raw-sri-lanka-spices.jpg";
+}
+
+img{
+    width:30%;
+    height:30%;
+    transition:all 0.3s ease;
+     border: 5px solid #b6d1b5;
+}
+.col-xs-2{
+    margin-top: 10px;
+}
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+.form-group.input{
+    height:50px;
+}
+
+h3{
+    font-family: cursive;
+}
